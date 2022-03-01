@@ -7,8 +7,10 @@ public class PallindromeTest {
 	public static void main(String[] args) {
 		String original, reverse = "";
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("enter the string");
 		original = sc.nextLine();
+		sc.close();
 		//char[] charst = original.toCharArray();// converted original string into character array
 		int length = original.length();
 		System.out.println(length);

@@ -10,6 +10,7 @@ public class SwapTwoNumbers {
 		Scanner number = new Scanner(System.in);
 		x = number.nextInt();
 		y = number.nextInt();
+		number.close();
 
 		System.out.println("before swapping -" + x + "," + y);
 		// temp=x;

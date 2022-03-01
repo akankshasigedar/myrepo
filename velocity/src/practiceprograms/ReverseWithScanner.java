@@ -11,7 +11,8 @@ public class ReverseWithScanner {
 		System.out.println("enter the string :");
 	        
 	        str = g.nextLine();
-	        String[] token = str.split("");    //used split method to print in reverse order
+	        g.close();
+	        String[] token = str.split("");    //used split method to print in reverse order with token
 	        for(int i=token.length-1; i>=0; i--)
 	        {
 	            System.out.print(token[i] + "");

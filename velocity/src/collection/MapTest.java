@@ -29,7 +29,9 @@ public class MapTest {
 
 		Iterator<?> itr = p.entrySet().iterator();
 		while (itr.hasNext()) {
+			@SuppressWarnings("rawtypes")
 			Map.Entry k = (Map.Entry) itr.next();
+
 			System.out.println("the key is -" + k.getKey() + "the value is -" + k.getValue());
 		}
 	}
